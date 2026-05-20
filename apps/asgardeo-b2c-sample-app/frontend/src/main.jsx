@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./styles.css";
+import "./utils/button-color.js";
 
 const clientId = import.meta.env.VITE_ASGARDEO_CLIENT_ID;
 const baseUrl = import.meta.env.VITE_ASGARDEO_BASE_URL;
