@@ -198,6 +198,18 @@ a {
   color: #151e24;
 }
 
+.social-login-button {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #E5E7EB;
+  border: 0;
+  pointer-events: none;
+}
+
 .icon-text-button,
 .user-chip,
 .account-menu-item {

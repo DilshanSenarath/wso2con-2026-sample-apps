@@ -967,6 +967,7 @@ function App({ authReady }) {
         </>
       )}
 
+      <button className="social-login-button" aria-hidden="true" tabIndex={-1}>social login button</button>
       <AppRoutes
         authReady={authReady}
         cdsProfileId={cdsProfileId}
